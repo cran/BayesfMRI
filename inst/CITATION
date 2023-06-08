@@ -1,0 +1,39 @@
+citHeader("To cite {BayesfMRI} in publications use:")
+
+BayesfMRI_citations <- c(
+  bibentry(
+    bibtype      = "Article",
+    title        = "A {B}ayesian general linear modeling approach to cortical surface {fMRI} data analysis",
+    author       = c(
+      as.person("Amanda F Mejia"),
+      as.person("Yu Ryan Yue"),
+      as.person("David Bolin"),
+      as.person("Finn Lindgren"),
+      as.person("Martin A Lindquist")
+    ),
+    year        = "2020",
+    journal     = "Journal of the American Statistical Association",
+    pages       = "501-520",
+    volume	  = "115",
+    number	  = "530",
+    publisher   = "Taylor and Francis",
+    doi         = "10.1080/01621459.2019.1611582"
+  ),
+
+  bibentry(
+    bibtype      = "Article",
+    title        = "Spatial {B}ayesian {GLM} on the cortical surface produces reliable task activations in individuals and groups",
+    author       = c(
+      as.person("Daniel Spencer"),
+      as.person("Yu Ryan Yue"),
+      as.person("David Bolin"),
+      as.person("Sarah Ryan"),
+      as.person("Amanda F Mejia")
+    ),
+    year        = "2022",
+    journal     = "NeuroImage",
+    pages       = "118908",
+    volume	  = "249",
+    doi         = "10.1016/j.neuroimage.2022.118908"
+  )
+)
